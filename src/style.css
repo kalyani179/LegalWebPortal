@@ -16,12 +16,40 @@
     justify-content: space-around;
     border-radius: 2rem;
     background-color: black;
+    margin-top: 2%;
 }
 .nav-link{
     color: #fff;
     font-size: 1em;
-    margin: 2%;
     cursor: pointer;
+    padding: 1%;
+    margin: 1%;
+    transition: 0.2s ease;
+    border-radius: 1rem;
+}
+.nav-link:hover{
+    background-color: white;
+    color: #000;
+}
+#HomeBody{
+    position: absolute;
+    left: 0;right: 0;bottom: 0;top: 0;
+    margin: auto;
+    width: 80dvw;
+    height: 50dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#HomeImg{
+    width: 20dvw;
+}
+#HomeDisc{
+    height: 25dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #footer{
     position: absolute;
