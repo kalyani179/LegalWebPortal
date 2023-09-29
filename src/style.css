@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@500&display=swap');
-*{
+
+* {
     box-sizing: border-box;
-    padding: 0;margin: 0;
+    padding: 0;
+    margin: 0;
     font-family: 'Onest', sans-serif;
 }
-#header{
+
+#header {
     position: absolute;
-    left: 0;right: 0;
+    left: 0;
+    right: 0;
     margin-left: auto;
     margin-right: auto;
     width: 75dvw;
@@ -18,7 +22,8 @@
     background-color: black;
     margin-top: 2%;
 }
-.nav-link{
+
+.nav-link {
     color: #fff;
     font-size: 1em;
     cursor: pointer;
@@ -26,14 +31,20 @@
     margin: 1%;
     transition: 0.2s ease;
     border-radius: 1rem;
+    text-decoration: none;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     background-color: white;
     color: #000;
 }
-#HomeBody{
+
+#HomeBody {
     position: absolute;
-    left: 0;right: 0;bottom: 0;top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
     margin: auto;
     width: 80dvw;
     height: 50dvh;
@@ -42,18 +53,23 @@
     align-items: center;
     justify-content: space-around;
 }
-#HomeImg{
+
+#HomeImg {
     width: 20dvw;
 }
-#HomeDisc{
+
+#HomeDisc {
     height: 25dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-#footer{
+
+#footer {
     position: absolute;
-    bottom: 0;left: 0;right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: 1% auto;
     width: fit-content;
     height: fit-content;
