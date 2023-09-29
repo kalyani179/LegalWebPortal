@@ -1,4 +1,5 @@
 import {Header,Footer} from "./Partials";
+import React from "react";
 function Home(){
     return (
         <div>

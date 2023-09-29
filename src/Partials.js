@@ -1,10 +1,11 @@
-import './style.css';
+import "./style.css";
+import React from "react";
 function Header(){
     return (
         <div id="header">
-            <a className="nav-link">Home</a>
-            <a className="nav-link">DashBoard</a>
-            <a className="nav-link">SignIn</a>
+            <a href="/" className="nav-link">Home</a>
+            <a href="/dashboard" className="nav-link">DashBoard</a>
+            <a href="/auth" className="nav-link">SignIn</a>
         </div>
     )
 }
